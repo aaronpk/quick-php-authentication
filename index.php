@@ -71,6 +71,7 @@ if(!isset($_SESSION['username'])) {
     'client_id' => $client_id,
     'redirect_uri' => $redirect_uri,
     'state' => $_SESSION['state'],
+    'scope' => 'openid',
   ]);
   #$authorize_url = 'TODO';
 
